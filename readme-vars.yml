@@ -31,8 +31,8 @@ param_env_vars:
 param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "</path/to/appdata/config>", desc: "Configuration files." }
-  - { vol_path: "/music", vol_host_path: "</path/to/music/library>", desc: "Music library" }
-  - { vol_path: "/downloads", vol_host_path: "</path/to/ingest>", desc: "Non processed music" }
+  - { vol_path: "/audiobooks", vol_host_path: "</path/to/audiobooks/library>", desc: "Audiobook library" }
+  - { vol_path: "/downloads", vol_host_path: "</path/to/ingest>", desc: "Non processed audiobooks" }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "8337", internal_port: "8337", port_desc: "Application WebUI" }

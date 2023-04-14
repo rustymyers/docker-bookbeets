@@ -78,6 +78,8 @@ RUN \
     beautifulsoup4 \
     beets==${BEETS_VERSION} \
     beets-extrafiles \
+    beets-audible \
+    beets-copyartifacts3 \
     beetcamp \
     discogs-client \
     flask \
